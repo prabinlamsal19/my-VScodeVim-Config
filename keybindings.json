@@ -1,34 +1,43 @@
 // Place your key bindings in this file to override the defaults
 [
+  //---------to be used inside the terminal-----------
+  // open terminal - CTRL L
+  // tala mathi - ctrl k,l (vim equivalent)
+  // ctrl n - new tab
   {
-    "key": "ctrl+shift+a",
+    "key": "ctrl+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+b",
+    "key": "ctrl+k",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+l",
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "ctrl+shift+n",
+    "key": "ctrl+n",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
-  // FILE TREE
+
+  // FILE TREE  (NOTE: cmd + b => hide show file tree. This is default. )
+
+  //showing file tree and unshowing it ... and switching between file tree and the text editing area
   {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+e",
+    "when": "!editorFocus"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
     "key": "ctrl+e",
     "when": "editorTextFocus"
   },
+  //CRUD files/folder in the file file tree
   {
     "key": "n",
     "command": "explorer.newFile",
@@ -40,14 +49,9 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "shift+n",
+    "key": "ctrl+n",
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
-  },
-  {
-    "key": "shift+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
   },
   {
     "command": "deleteFile",
@@ -55,14 +59,9 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
 
-  // EXTRA
-  {
-    "key": "ctrl+shift+5",
-    "command": "editor.emmet.action.matchTag"
-  },
+  //ZEN MODE
   {
     "key": "ctrl+z",
     "command": "workbench.action.toggleZenMode"
   }
 ]
-
