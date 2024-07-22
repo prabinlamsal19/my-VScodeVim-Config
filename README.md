@@ -1,52 +1,47 @@
-## VSCode vim extension paired with keybindings can provide smoother developer experience than Neovim(and similar alternatives). 
+# Enhancing Developer Experience with VSCode Vim Extension and Keybindings
 
-Its not just about the learning curve and the setup time being way lower. This workflow actually makes you faster than using Neovim. 
+Using the VSCode Vim extension paired with customized keybindings can significantly enhance your development workflow, offering a smoother and faster experience compared to using Neovim. This approach not only reduces the learning curve and setup time but also boosts efficiency.
 
-## Simple Guide 
+## Vim Motion Shortcuts (in Vim Mode)
+- `leader f` - Global search
+- `leader v`, `s` - Vertical, horizontal split
+- `leader h,j,k,l` - Switch between panes the Vim way
+- `leader i` - Go to implementation
+- `>`, `<` - Shift line right, left
+- `Shift + j` - Move line above
+- `]` or `[` + `d` - Move to the next or previous error/warning marker
+- `leader d` - Go to definition
 
-## VIM motion shortcuts ( in vim mode )
-- leader f - global search
-- leader v , s - vertical , horizontal split
- - leader h,j,k,l - switch between panes the vim way
- - leader i - go to implementation 
--   > , < - shift line right, left
-- shift + j - move line above
--  ] or [  + d - move to the next or previous error/warning place in the file (marker)
-leader d - go to definition
+Plus, enjoy all the smooth shortcuts of Vim motions.
 
-+ all coconut buttery smooth shortcuts of VIM Motions.
+## Navigation Shortcuts (Vim Unrelated)
 
+### VSCode Terminal
+- `Ctrl + m` - Open/close terminal window
+- `Ctrl + n` - New terminal
+- `Ctrl + d` - Delete/kill opened terminal
+- `Ctrl + j,k` - Switch between terminals the Vim way
 
-## Navigation shortcuts (VIM Unrelated)
+### File Explorer
+- `Ctrl + i` - Go to file explorer (from active text editor) / Go to active text editor (from any place else e.g., explorer, terminal)
+- `Ctrl + b` - Close the file explorer window
+- `Ctrl + Space`, `Enter` - Preview file, Open file and go inside
+- `Ctrl + j`, `k` - Move up, down the file tree
+- `Ctrl + N`, `n`, `d`, `r` - Create new folder, new file, delete file/folder, rename file/folder
+- `Ctrl + o` - Switch control between terminal and active text editor
 
->VSCODE Terminal
-      - Ctrl + m - open close terminal window
-      - Ctrl + n - new terminal
-      - Ctrl + d - delete/kill opened terminal
-      - Ctrl + j,k - switch between terminals the vim way
-->File Explorer
-      - Ctrl + i - Go to file explorer(from active text editor) | go to active text editor (From any place else eg. explorer, terminal)
-      - Ctrl + b - Close the file explorer window
-      - Ctrl + Space, Enter - Preview file , Open file and go inside
-      - Ctrl + j , k - Move up,down the file tree 
-     - Ctrl + N , n , d , r - create New Folder, new file , delete file/folder , rename file/folder
-      - Ctrl + o - Switch control between terminal and active text editor
-      
-## Drawbacks 
-- Less impact on people because of your IDE no matter how fast you are
-- Global mark is something you might miss
+## Drawbacks
+- Less impact on others because of your IDE no matter how fast you are
+- Missing global mark functionality
 
-## Please contribute on: 
-- adding debugger on selected lines
-- better shortcuts for go to definition and stuffs
-- be able to change the code action menu items with vim motions
-- switch between problems, debug conise, test , comments, outputs tab etc
-- and others as you might see fit.
+## Contributions Needed
+- Adding debugger on selected lines
+- Better shortcuts for go-to-definition and related actions
+- Ability to change the code action menu items with Vim motions
+- Switching between problems, debug console, test, comments, outputs tab, etc.
+- Any other improvements you find suitable
 
-## Recommended layout to go with the keybindings: 
-Put your terminal and debug console on the same window. We can't switch betweent them with this setup. 
+## Recommended Layout
+Place your terminal and debug console in the same window. Note that we can't switch between them with this setup.
 
-
-
-
-
+Feel free to contribute to make this setup even better!
