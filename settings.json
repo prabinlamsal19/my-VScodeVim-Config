@@ -34,6 +34,9 @@
     "editor.wordWrapColumn": 130
   },
 
+  ///For copying my nvim like keybindings, please only start copying down from here to the specified point below. 
+  ///Since we don't have the same extensions, it might cause errors on your part.
+
   //vimconfig
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -104,6 +107,9 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
+
+    ///For copying my nvim like keybindings, please only copy and paste till now into your existing map
+
   "leetcode-problem-rating.workspaceFolder": "/home/user/.lcpr",
   "leetcode.endpoint": "leetcode",
   "github.copilot.editor.enableAutoCompletions": true,
