@@ -4,7 +4,7 @@
   // open terminal - CTRL L
   // tala mathi - ctrl k,l (vim equivalent)
   // ctrl n - new tab
-  {
+    {
     "key": "ctrl+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
@@ -23,20 +23,58 @@
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
-
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+m",
+  "command": "workbench.action.togglePanel"
+  }, 
+  //TODO: switch between terminal, debug console and problems tab
+  {
+    "key": "ctrl+l",
+    "command": "workbench.",
+    "when": "terminalFocus"
+  },
+  // {
+  //   "key": "ctrl+h",
+  //   "command": "workbench.",
+  // },
+  //   "when": "terminalFocus"
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
   // FILE TREE  (NOTE: cmd + b => hide show file tree. This is default. )
 
   //showing file tree and unshowing it ... and switching between file tree and the text editing area
   {
     "command": "workbench.action.focusActiveEditorGroup",
-    "key": "ctrl+e",
+    "key": "ctrl+i",
     "when": "!editorFocus"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
+    "key": "ctrl+i",
     "when": "editorTextFocus"
-  },
+  }, 
+  //going to the open terminal 
+  {
+  "key": "ctrl+o",
+  "command": "workbench.action.terminal.focus" ,
+  "when": "!terminalFocus"
+  }, 
+  {
+  "key": "ctrl+o",
+  "command": "workbench.action.focusActiveEditorGroup",
+  "when": "terminalFocus"
+  }, 
   //CRUD files/folder in the file file tree
   {
     "key": "n",
@@ -49,19 +87,17 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+  },
+  {
     "key": "ctrl+n",
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
-  },
+  }, 
   {
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
   },
-
-  //ZEN MODE
-  {
-    "key": "ctrl+z",
-    "command": "workbench.action.toggleZenMode"
-  }
-]
+]// Place your key bindings in this file to override the defaultsauto[]
