@@ -9,7 +9,7 @@ Its not just about the learning curve and the setup time being way lower. This w
 - leader v , s - vertical , horizontal split
  - leader h,j,k,l - switch between panes the vim way
  - leader i - go to implementation 
- - > , < - shift line right, left
+-   > , < - shift line right, left
 - shift + j - move line above
 -  ] or [  + d - move to the next or previous error/warning place in the file (marker)
 leader d - go to definition
@@ -19,12 +19,12 @@ leader d - go to definition
 
 ## Navigation shortcuts (VIM Unrelated)
 
-VSCODE Terminal
+>VSCODE Terminal
       - Ctrl + m - open close terminal window
       - Ctrl + n - new terminal
       - Ctrl + d - delete/kill opened terminal
       - Ctrl + j,k - switch between terminals the vim way
-File Explorer
+->File Explorer
       - Ctrl + i - Go to file explorer(from active text editor) | go to active text editor (From any place else eg. explorer, terminal)
       - Ctrl + b - Close the file explorer window
       - Ctrl + Space, Enter - Preview file , Open file and go inside
