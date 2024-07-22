@@ -31,7 +31,7 @@ Plus, enjoy all the smooth shortcuts of Vim motions.
 - `Ctrl + o` - Switch control between terminal and active text editor
 
 ## Drawbacks
-- Less impact on others because of your IDE no matter how fast you are
+- Less impact on others because of your normie VSCode IDE no matter how fast you are. Recommended to use with highly riced arch to account for the disadvantage.
 - Missing global mark functionality
 
 ## Contributions Needed
