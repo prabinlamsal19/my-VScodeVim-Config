@@ -61,12 +61,12 @@
   },
   //going to the open terminal
   {
-    "key": "ctrl+o",
+    "key": "ctrl+j",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
   {
-    "key": "ctrl+o",
+    "key": "ctrl+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
